@@ -1,0 +1,13 @@
+
+name: My First Workflow
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Welcome
+        run: echo "My GitHub Actions Workflow is working!"
